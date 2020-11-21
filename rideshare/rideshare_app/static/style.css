@@ -1,32 +1,222 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  header{
-    z-index: 1;
-    position: fixed;
-    background: #22242A;
-    padding: 20px;
-    width: calc(100% - 0%);
-    top: 0;
+body {
+    font-family: "Georgia", serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Martel";
+}
+
+h2 {
+    color: navy;
+}
+
+h5 {
+    color: white;
+}
+
+.site-footer {
+    background-image:linear-gradient(to bottom,black, purple);
+    padding: 40px;
+    
+}
+
+.site-footer h5{
+    color: black;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image:linear-gradient(to bottom,black, purple);
+    height: 250px;
+    margin: 0px;
+
+}
+
+.jumbotron h1, .jumbotron h2 {
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, black, #BBBBBB);
+}
+
+.quoteModalHeader {
+    background-image: linear-gradient(to right, black, #4DBEFF);
+}
+
+.carousel {
+    border: solid black;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+    color: white;
+}
+
+.card h4 {
+    color: black;
+}
+
+.thead {
+    background-image: linear-gradient(to right,black, #4DBEFF);
+}
+
+.quoteButtons {
+    background-color: #4DBEFF;
+    border-color: black;
+}
+
+.quoteButtons2 {
+    background-color: #BBBBBB;
+    border-color: black;
+}
+
+#a1 {
+
     height: 30px;
-  }
 
-  .left_area h3{
-    color: grey;
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 900;
+}
+
+/* #reg {
+    
+    
+    margin-left: 30%;
+    margin-right: 30%
+
+} */
+
+#reg {
+
+    width: 300px;
+    margin-left: 25%;
+    display: inline-block;
+    vertical-align: top;
+    
+  
   }
   
-  .left_area span{
-    color: blue;
+  #login {
+  
+      width: 300px;
+      margin-top: 50px;
+      margin-left: 25%;
+      display: inline-block;
+     
+     
+  }
+  #errors
+  {
+  text-align: center;
+  color: red;
+  
   }
 
-  .container{
-      margin-top: 120px;
-      padding-bottom: 20px;
-  }
+  li {
+    list-style: none;
+    }
+
+#username h3{
+    
+    margin-left: 10px;
+    padding: 20px;
+    height: 30px;
+    color: white;   
+}
+
+#total {
+
+    padding-left: 70%;
+   
+
+}
+
+
+
+.form-style-9{
+	max-width: 450px;
+	background: #FAFAFA;
+	padding: 10px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid #305A72;
+}
+.form-style-9 ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.form-style-9 ul li{
+	display: block;
+    margin-bottom: 10px;
+    margin-left: 50px;
+	min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+    padding: 8px;
+    margin-left: 55px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+	width: 49%;
+}
+.form-style-9 ul li .field-full{
+	width: 100%;
+}
+.form-style-9 ul li input.align-left{
+    width: auto;
+	
+}
+.form-style-9 ul li input.align-right{
+    width: auto;
+	
+}
+.form-style-9 ul li textarea{
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+    margin-left: 65px;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
